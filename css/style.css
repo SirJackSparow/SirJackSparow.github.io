@@ -19,6 +19,36 @@ body {
   background: #fff;
 }
 
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scroll-down-btn {
+  display: inline-block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-down-btn i {
+  margin-left: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-down-btn:hover {
+  background-color: #fff;
+}
+
+.scroll-down-btn:hover i {
+  transform: translateX(3px);
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
